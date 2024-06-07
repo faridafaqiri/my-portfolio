@@ -124,8 +124,6 @@ a {
   padding-block: 4rem;
 }
 
- /*-----home----*/ 
-
 .home {
   background-color: var(--container-color);
   padding-block: 9rem 3rem;
@@ -181,8 +179,6 @@ a {
   margin-inline: auto 2rem;
   position: relative;
 }
-
- /*-----about------*/ 
 
 .about--conatiner {
   grid-template-columns: 4fr 8fr;
@@ -262,8 +258,6 @@ a {
   color: var(--first-color-light);
 }
 
- /*----contact----*/ 
-
 .contect--container {
   grid-template-columns: 5fr 7fr;
   align-items: flex-start;
@@ -324,8 +318,6 @@ footer {
   padding: 4rem;
   font-size: var(--h3-font-size);
 }
-
- /*-------responsive-------*/ 
 
 @media screen and (max-width: 1200px) {
   .container {
