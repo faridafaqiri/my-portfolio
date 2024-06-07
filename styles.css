@@ -17,7 +17,7 @@
   --h2-font-size: 2.25rem;
   --h3-font-size: 1.5rem;
   --larger-font-size: 1.2rem;
-  --large-font-size: 1.125re;
+  --large-font-size: 1.125rem;
   --weight-300: 300;
   --weight-400: 400;
   --weight-600: 600;
@@ -33,7 +33,10 @@ html {
   scroll-behavior: smooth;
 }
 
-input, textarea, button, body {
+input,
+textarea,
+button,
+body {
   font-family: var(--body-font);
   font-size: var(--larger-font-size);
 }
@@ -43,13 +46,17 @@ body {
   color: var(--text-color);
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   outline: none;
   border: none;
   background-color: transparent;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--weight-600);
 }
@@ -83,7 +90,8 @@ a {
   gap: 1.5rem;
 }
 
-.nav, .nav--list {
+.nav,
+.nav--list {
   display: flex;
 }
 
@@ -116,12 +124,14 @@ a {
 }
 
 /*-----home----*/
+
 .home {
   background-color: var(--container-color);
   padding-block: 9rem 3rem;
   margin: 4%;
   margin-left: 5%;
 }
+
 .home--container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -172,6 +182,7 @@ a {
 }
 
 /*-----about------*/
+
 .about--conatiner {
   grid-template-columns: 4fr 8fr;
   align-items: center;
@@ -185,7 +196,7 @@ a {
 .section--title {
   font-size: var(--h1-font-size);
   font-weight: var(--weight-400);
-  line-height: 1.2;
+  line-height: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -247,11 +258,13 @@ a {
   margin-bottom: 3rem;
 
 }
+
 .pro--title {
   color: var(--first-color-light);
 }
 
-/*  contact     */
+/*----contact----*/
+
 .contect--container {
   grid-template-columns: 5fr 7fr;
   align-items: flex-start;
@@ -313,22 +326,26 @@ footer {
   padding: 4rem;
   font-size: var(--h3-font-size)
 }
-/*responsive*/
+
+/*---------responsive-------*/
+
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 960px;
   }
+
   :root {
     --big-font-size: 2.5rem;
-  --h1-font-size: 2rem; 
-  --h2-font-size: 1.75rem;
-  --h3-font-size: 1.25rem;
-  --larger-font-size: 1rem;
-  --large-font-size: 0.938rem;
-  --weight-300: 300; 
-  --weight-400: 400;
-  --weight-600: 600;
+    --h1-font-size: 2rem; 
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --larger-font-size: 1rem;
+    --large-font-size: 0.938rem;
+    --weight-300: 300; 
+    --weight-400: 400;
+    --weight-600: 600;
   }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -336,27 +353,33 @@ footer {
     width: 100%;
     font-size: 5px;
   }
+
   .home--container,
   .about--conatiner,
   .project--container,
   .contect--container {
     grid-template-columns: 1fr;
   }
+
   .nav--logo {
     font-size: small;
   }
+
   .container {
     max-width: 720px;
   }
+
   .nav--link {
     font-size: small;
   }
+
 }
 
 @media screen and (max-width: 768){
   .container {
     max-width: 560px;
   }
+  
   .nav {
     height: calc(var(--header-height) + 1rem);
   }
