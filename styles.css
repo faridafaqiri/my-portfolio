@@ -124,7 +124,7 @@ a {
   padding-block: 4rem;
 }
 
-/*-----home----*/
+ /*-----home----*/ 
 
 .home {
   background-color: var(--container-color);
@@ -170,7 +170,7 @@ a {
   padding: 0.9rem 2.5rem;
   font-size: var(--large-font-size);
   border-radius: 0.5rem;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .btn:hover {
@@ -182,7 +182,7 @@ a {
   position: relative;
 }
 
-/*-----about------*/
+ /*-----about------*/ 
 
 .about--conatiner {
   grid-template-columns: 4fr 8fr;
@@ -325,7 +325,7 @@ footer {
   font-size: var(--h3-font-size);
 }
 
- /*---------responsive-------*/ 
+ /*-------responsive-------*/ 
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -334,7 +334,7 @@ footer {
 
   :root {
     --big-font-size: 2.5rem;
-    --h1-font-size: 2rem; 
+    --h1-font-size: 2rem;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
     --larger-font-size: 1rem;
@@ -371,7 +371,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 768){
+@media screen and (max-width: 768) {
   .container {
     max-width: 560px;
   }
